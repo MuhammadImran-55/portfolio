@@ -18,30 +18,44 @@ const Work = () => {
         </div>
         
         <div className="brands">
-            <div className="main-circle">
-             <div className="b-circle">
+          <div className='brands-main-sec'>
+            <div className="main-circle" style={{border:'2px solid black'}}>
+             <div className='b-b-circle'>
               <img className='b-img' src={amazon} alt="" />
-              <motion.img 
-               initial={{top:'36%', left:'36%'}}
-               whileInView={{top:'250px', left:'100px'}}
+             </div >
+             <motion.div
+             initial={{top:'36%', left:'36%'}}
+               whileInView={{top:'-40px', left:'35%'}}
                transition={transition}
-              className='b-img' src={fiverr} alt="" />
-              <motion.img
-              initial={{top:'36%', left:'36%'}}
-              whileInView={{top:'-30px', left:'100px'}}
+             className="b-b-circle">
+              <a href=""><img 
+              className='b-img' src={fiverr} alt="" /></a>
+              </motion.div>
+              <motion.div
+              initial={{ left:'36%',bottom:'36%'}}
+              whileInView={{left:'35%',bottom:'-12%'}}
               transition={transition}
-              className='b-img' src={facebook} alt="" />
-              <motion.img
-              initial={{top:'36%', left:'36%'}}
-              whileInView={{left:'250px', top:'100px'}}
+              className='b-b-circle'>
+              <a href=""><img 
+              className='b-img' src={facebook} alt="" /></a>
+              </motion.div>
+              <motion.div
+               initial={{top:'36%', left:'36%'}}
+              whileInView={{left:'-40px', top:'36%'}}
               transition={transition}
-              className='b-img' src={upwork} alt="" />
-              <motion.img
-              initial={{top:'36%', left:'36%'}}
-              whileInView={{top:'100px', left:'-30px'}}
-              transition={transition}
-              className='b-img' src={shopify} alt="" />
-             </div>
+              className='b-b-circle'>
+              <a href=""><img
+              className='b-img' src={upwork} alt="" /></a>
+              </motion.div>
+              <motion.div
+              initial={{top:'36%', right:'36%'}}
+                whileInView={{top:'36%', right:'-12%'}}
+                transition={transition}
+              className='b-b-circle'>
+               <a href=""> <img
+                className='b-img' src={shopify} alt="" /></a>
+                </motion.div>
+            </div>
              <div className="blue"></div>
              <div className="yellow"></div>
             </div>

@@ -7,6 +7,7 @@ import Vector1 from '../../assets/img/Vector1.png'
 import Vector2 from '../../assets/img/Vector2.png'
 import Boy from '../../assets/img/boy.png'
 import Hmd from '../../assets/img/hmd.png'
+import MyImg from '../../assets/img/MyImg.png'
 import Crown from '../../assets/img/crown.png'
 import Thumb from '../../assets/img/thumbup.png'
 import Glasses from '../../assets/img/glassesimoji.png'
@@ -18,7 +19,7 @@ const Intro = () => {
   return (
     <div className='intro'>
         <div className="intro-left">
-            <div className="intro-heading">Hy! I am <br /><span>Hammad Muneer</span></div>
+            <div className="intro-heading">Hy! I am <br /><span>Muhammad Imran</span></div>
             <p>Frontend Developer with level of experience in web designing and development producing the Quality work</p>
             <button className='btn'>Hire me</button>
             <button style={{marginLeft:'20px'}} className='btn'>Download Cv</button>
@@ -32,7 +33,7 @@ const Intro = () => {
             <div className="intro-main-img">
              <img src={Vector1} alt="vector1" />
              <img src={Vector2} alt="vector2" />
-             <img src={Hmd} alt="profile pic" />
+             <img src={MyImg} alt="profile pic" />
              </div>
              <motion.div
              initial={{top:'-80px',right:'-80px'}}

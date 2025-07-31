@@ -10,7 +10,7 @@ const Services = () => {
     const transition = {duration:2,type:'spring'}
   return (
     
-    <div className='services'>
+    <div className='services' id='services'>
         <div className="services-text">
             <div className="services-heading">My Awesome <br /><span>Services</span></div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores veniam quidem voluptate dicta quisquam molestiae similique ab id! Rerum.</p>

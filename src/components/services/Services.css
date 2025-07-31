@@ -117,11 +117,25 @@
         width: 100%;
     }
     .services-cards {
+        margin-top: 50px;
         width: 100%;
-       background-color: green;
+       position: relative;
+       height: 1000px;
     }
-    .services-cards:nth-child(1){
-        transform: translate(-300px , 0);
+    .services-cards .card:nth-child(1){
+       left: -350px;
+       top: 20px;
+       position: absolute;
+    }
+    .services-cards .card:nth-child(2){
+       left: 0px;
+       top: 250px;
+       position: absolute;
+    }
+    .services-cards .card:nth-child(3){
+       left: -280px;
+       top: 550px;
+       position: absolute;
     }
    
   .card{

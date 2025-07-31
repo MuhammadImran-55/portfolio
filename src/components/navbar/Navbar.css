@@ -28,7 +28,7 @@
    cursor: pointer;
     transition: .3s ease;
 }
-.right-nav ul li a{
+.right-nav ul li{
     text-decoration: none;
 }
 .right-nav ul li:hover{

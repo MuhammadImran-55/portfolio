@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20rem;
+    height: 14rem;
 }
 
 .circles-sec{
@@ -49,4 +49,15 @@
 
 .circle-text span{
     color: var(--orange);
+}
+
+
+@media screen and (max-width:480px) {
+    .experience{
+        padding: 0px 30px;
+    }
+    .circles-sec{
+    display: flex;
+    gap: 2rem;
+}
 }

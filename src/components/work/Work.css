@@ -2,11 +2,21 @@
     padding: 100px 50px;
     display: flex;
     position: relative;
-}
-.brands{
-    /* width: 60%; */
-    transform: translateX(200px);
     
+}
+.services-text{
+    width: 50%;
+}
+
+.brands{
+    width: 50%;
+}
+
+.brands-main-sec{
+    
+    transform: translateX(200px);
+    width: 300px;
+    height: 300px;
 }
 
 .main-circle{
@@ -17,44 +27,70 @@ background: white;
    display: flex;
    align-items: center;
    justify-content: center;
+   position: relative;
    box-shadow: 5px 5px 10px grey;
+   animation: spin 20s  linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.b-b-circle{
+    width: 80px;
+    height:80px ;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px grey;
 }
 
 .b-img{
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    padding: 20px;
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 2px 3px 7px grey;
-    border: 2px solid grey;
+ 
+    width: 50px;
+    height: 50px;
+ 
+    /* border-radius: 50%; */
 }
-.b-circle .b-img:nth-child(1){
+.main-circle .b-b-circle:nth-child(1){
     /* margin: 2px; */
     top: 36%;
     left: 36%;
-} 
-.b-circle .b-img:nth-child(2){
-    bottom: -30px;
-    left: 100px;
     position: absolute;
 } 
-.b-circle .b-img:nth-child(3){
-    top: -30px;
-    left: 100px;
+.main-circle .b-b-circle:nth-child(2){
+    /* margin: 2px; */
+    top: -40px;
+    left: 35%;
     position: absolute;
 } 
-.b-circle .b-img:nth-child(4){
+.main-circle .b-b-circle:nth-child(3){
+    /* margin: 2px; */
+    bottom: -40px;
+    left: 35%;
+    position: absolute;
+    
+} 
+.main-circle .b-b-circle:nth-child(4){
+    /* margin: 2px; */
+    left: -40px;
+    top: 36%;
+    position: absolute;
+} 
+.main-circle .b-b-circle:nth-child(5){
+    /* margin: 2px; */
+    top: 36%;
     right: -40px;
-    top:100px;
     position: absolute;
 } 
-.b-circle .b-img:nth-child(5){
-    left: -30px;
-    top:100px;
-    position: absolute;
-} 
+
 
 
 .blue{
@@ -100,4 +136,45 @@ background: white;
     z-index: -999;
     left: 600px;
     top: 260px;
+}
+
+
+@media screen and (max-width:480px) {
+    .work{
+    padding: 50px 30px;
+    display: block;
+    flex-direction: column;
+    
+}
+.services-text{
+    width: 100%;
+}
+.brands{
+    width: 100%;
+}
+.brands-main-sec{
+    transform: translateX(0px);
+    width: 250px;
+    height: 250px;
+}
+.main-circle{
+    margin-top: 120px;
+    width: 250px;
+    height: 250px;
+}
+.b-img{
+ 
+    width: 40px;
+    height: 40px;
+}
+
+.blue{
+    width: 220px;
+    height: 150px;
+}
+.yellow{
+    width: 220px;
+    height: 150px;
+}
+
 }
