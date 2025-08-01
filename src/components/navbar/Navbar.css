@@ -37,6 +37,10 @@
 
 
 @media screen  and (max-width:480px) {
+    .navbar{
+        overflow: hidden;
+    }
+    
     .right-nav{
         display: none;
     }

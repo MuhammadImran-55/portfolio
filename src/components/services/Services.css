@@ -111,6 +111,7 @@
         display: flex;
         flex-direction: column;
         padding: 50px 30px;
+        overflow: hidden;
     }
     
     .services-text{
@@ -140,5 +141,10 @@
    
   .card{
     width: auto;
+  }
+  .cyan-2{
+    left: 230px;
+    top: 1000px;
+    overflow: hidden;
   }
 }

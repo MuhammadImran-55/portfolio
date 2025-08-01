@@ -138,6 +138,7 @@
     .intro{
         flex-direction: column;
         padding: 50px 1rem;
+        overflow-x: hidden;
     }
     .intro-left{
         width: 100%;
@@ -153,13 +154,23 @@
         margin: 20px 0 20px 20px;
     }
 
+    .intro-heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.intro-heading span{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
     .intro-main-img img{
     width: 100%;
     position: absolute;
 }
 .intro-right img:nth-child(1){
     left: 10px;
-    top: 190px;
+    top: 160px;
     z-index: 6;
      
 }
@@ -168,12 +179,13 @@
     left: 50px;
     top: 90px;
     z-index: 7;
+    width: 350px;
 }
 .intro-right img:nth-child(3){
     top: -60px;
     width: 520px;
-    left: -90px;
-    height: 450px;
+    left: -30px;
+    height: 500px;
     z-index: 10;
 }
 .ccc{
@@ -183,8 +195,20 @@
     border-radius: 50%;
     position: absolute;
     left: 10%;
-    top: 700px;
+    top: 600px;
     z-index: -1;
+}
+
+  .cyan-1{
+    width: 250px;
+    height: 250px;
+    background: cyan;
+    left: 150px;
+    position: absolute;
+    top: 280px;
+    filter: blur(82px);
+    border-radius: 50%;
+    z-index: -99;
 }
     
 }

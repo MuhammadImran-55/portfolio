@@ -69,3 +69,36 @@ textarea{
     filter: blur(86px);
     left: 60%;
 }
+
+
+@media screen and (max-width:480px) {
+    .contact{
+        width: 100%;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.contact-left{
+    width: 100%;
+}
+.cont-heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.cont-heading span{
+    font-size: 40px;
+    color: var(--orange);
+    font-weight: 600;
+}
+.contact-right{
+    width: 100%;
+}
+form{
+    width: 85%;   
+}
+.pinnnk{
+    left: 40%;
+}
+}

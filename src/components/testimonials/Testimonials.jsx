@@ -44,11 +44,13 @@ const Testimonials = () => {
 
   return (
     <div className='testimonials'>
+        <div>
         <span>Clients always get</span>
         <span> Exceptinal work </span>
         <span>From me...</span>
       <div className="cyan"></div>
       <div className="pinkkkk"></div>
+      </div>
        <Swiper
          modules={[Pagination]}
          slidesPerView={1}
