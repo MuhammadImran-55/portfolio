@@ -7,7 +7,7 @@ const Experience = () => {
     const [counter3, setCounter3] = useState(0);
 
     useEffect(() => {
-        let num= 5;
+        let num= 2;
         let intervel=setInterval(() => {
                 setCounter(prev=>{
                     if(prev<num){

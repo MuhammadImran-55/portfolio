@@ -1,6 +1,7 @@
 .all-projects{
    width: 100%;
    /* padding: 0 100px; */
+   overflow: hidden;
 }
 
 .all-projects h1{
@@ -17,7 +18,7 @@
     padding: 0 100px;
 }
 .pro-card{
-   width: 340px;
+   width: 540px;
     height: 230px;
     border-radius: 20px;
     filter: drop-shadow(-12px 8px 13px black );

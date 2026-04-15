@@ -18,33 +18,36 @@ const Services = () => {
         </div>
         <div className="services-cards">
             <motion.div
-             initial={{transform:'translate(400px,50px'}}
-             whileInView={{transform:'translate(350px,0)'}}
-             transition={transition}
-            className="card">
+  initial={{ x: 100, y: 50 }}
+  whileInView={{ x: 0, y: 0 }}
+  transition={transition}
+  className="card"
+>
                 <img className='heart' src={heart} alt="" />
-                <div className="card-h1">Developer</div>
+                <div className="card-h1">UI/UX</div>
                 <div className="card-desc">Figma,Sketch,Photoshop,Adobe illustrator,Adobe xd</div>
                 <button className='ser-card-btn'>LEARN MORE</button>
             </motion.div>
             <motion.div
-            initial={{transform:'translate(-150px,50px'}}
-            whileInView={{transform:'translate(100px,50px'}}
-            transition={transition}
-             className="card">
+  initial={{ x: 100, y: 50 }}
+  whileInView={{ x: 0, y: 0 }}
+  transition={transition}
+  className="card"
+>
                 <img className='heart' src={glasses} alt="" />
-                <div className="card-h1">UI/UX</div>
-                <div className="card-desc">HTML,CSS,JavaScript,React,Node Js,Express</div>
+                <div className="card-h1">Developer</div>
+                <div className="card-desc">HTML,CSS,JavaScript,React,Node Js,Express,Tailwind</div>
                 <button className='ser-card-btn'>LEARN MORE</button>
             </motion.div>
             <motion.div
-            initial={{transform:'translate(400px,80px'}}
-            whileInView={{transform:'translate(300px,80px'}}
-            transition={transition}
-            className="card">
+  initial={{ x: 100, y: 50 }}
+  whileInView={{ x: 0, y: 0 }}
+  transition={transition}
+  className="card"
+>
                 <img className='heart' src={humble} alt="" />
-                <div className="card-h1">Design</div>
-                <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, mollitia.</div>
+                <div className="card-h1">Video editing and automation tools</div>
+                <div className="card-desc">Capcut, After Effect , n8n, make.com</div>
                 <button className='ser-card-btn'>LEARN MORE</button>
             </motion.div>
         </div>

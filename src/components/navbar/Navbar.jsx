@@ -16,7 +16,7 @@ const Navbar = () => {
               <Link spy='true' to='navbar' smooth='true' >
                 <li>Home</li>
               </Link>
-              <Link spy='true' to='services' smooth='true' >
+              <Link spy={true} to="navbar" smooth={true}>
                 <li>Services</li>
               </Link>
               <Link spy='true' to='experience' smooth='true' >
@@ -30,7 +30,7 @@ const Navbar = () => {
               </Link>
             </ul>
                 <div>
-                  <Link spy='true' to='contact' smooth='true'>
+                  <Link spy={true} to='contact' smooth={true}>
                   <button className='btn'>Contact</button>
                   </Link>
                   </div>

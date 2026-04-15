@@ -6,6 +6,10 @@ import Hoc from '../../assets/img/hoc.png'
 import Sidebar from '../../assets/img/sidebar.png'
 import Reactpro from '../../assets/img/react.jpg'
 import 'swiper/css'
+import img1 from './../../assets/img/enigma.png'
+import img2 from './../../assets/img/futuristic.png'
+import img3 from './../../assets/img/preview.png'
+import img4 from './../../assets/img/dashboard.png'
 
 const RecentProjects = () => {
   return (
@@ -22,16 +26,16 @@ const RecentProjects = () => {
      className='recent-pro'
     >
         <SwiperSlide>
-            <img src={Hoc} alt="" />
+            <img src={img1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Sidebar} alt="" />
+            <img src={img2} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Reactpro} alt="" />
+            <img src={img3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Reactpro} alt="" />
+            <img src={img4} alt="" />
         </SwiperSlide>
     </Swiper>
 

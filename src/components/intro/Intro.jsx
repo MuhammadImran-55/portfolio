@@ -21,10 +21,17 @@ const Intro = () => {
         <div className="intro-left">
             <div className="intro-heading">Hy! I am <br /><span>Muhammad Imran</span></div>
             <p>Frontend Developer with level of experience in web designing and development producing the Quality work</p>
-            <button className='btn'>Hire me</button>
+            {/* <button className='btn'>Hire me</button>
             <a href="/files/imranCv-Frontend-Devloper.pdf" download>
             <button style={{marginLeft:'20px'}} className='btn'>Download Cv</button>
-            </a>
+            </a> */}
+            <div className="intro-buttons">
+  <button className='btn'>Hire me</button>
+
+  <a href="/files/imranCv-Frontend-Devloper.pdf" download>
+    <button className='btn'>Download Cv</button>
+  </a>
+</div>
             <div className="social-icon">
               <a target='_blank' href="https://www.instagram.com/m.imran_54?igsh=bHMwMHIzZGNnZHNw">
                 <img src={Insta} alt="instagram" />
@@ -48,7 +55,7 @@ const Intro = () => {
              whileInView={{top:'-20px',right:'-20px'}}
              transition={transition}
               className="intro-cards">
-                <img className='card-img' src={Crown} alt="" />
+                <img className='card-img-intro' src={Crown} alt="" />
                 <div className="text">Web <br /> developer</div>
              </motion.div>
              <motion.div
@@ -56,7 +63,7 @@ const Intro = () => {
              whileInView={{left:'-15px',top:'325px'}}
              transition={transition}
              className="intro-cards card2">
-                <img className='card-img' src={Thumb} alt="" />
+                <img className='card-img-intro' src={Thumb} alt="" />
                 <div className="text">Best Design <br /> Award</div>
              </motion.div>
              <motion.img

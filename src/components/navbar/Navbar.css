@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     height: 4rem;
     display: flex;
     align-items: center;
@@ -7,7 +7,6 @@
 .left-nav{
     display: flex;
     width: 30%;
-    /* padding: 0 2rem; */
 }
 .left-nav .n-name{
     margin: 0 2rem;
@@ -45,4 +44,100 @@
         display: none;
     }
     
+} */
+
+
+.navbar {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+/* LEFT */
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-nav .n-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* RIGHT */
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav ul li {
+  list-style: none;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.right-nav ul li:hover {
+  color: var(--orange);
+}
+
+/* BUTTON */
+.btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ========================= */
+/* 📱 MOBILE (≤480px) */
+/* ========================= */
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .right-nav {
+    display: none; /* keep your original behavior */
+  }
+
+  .left-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* ========================= */
+/* 📲 TABLET (481px - 768px) */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 1.5rem;
+  }
+
+  .right-nav {
+    gap: 5px;
+  }
+
+  .right-nav ul li {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.4rem 10px;
+    font-size: 0.65rem;
+  }
 }

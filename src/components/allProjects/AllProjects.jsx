@@ -1,5 +1,7 @@
 import React from 'react'
 import './AllProjects.css'
+import ProjectCard from '../ProjectCard'
+
 
 const AllProjects = () => {
   return (
@@ -7,15 +9,13 @@ const AllProjects = () => {
         <h1>All Projects</h1>
 
         <section className='css'>
-            <div className='naam'>CSS</div>
+            {/* <div className='naam'>CSS</div> */}
             <div className="pro-card-cont">
-                <div className="pro-card"></div>
-                <div className="pro-card"></div>
-                <div className="pro-card"></div>
+                <ProjectCard/>
             </div>
 
         </section>
-        <section className='css'>
+        {/* <section className='css'>
             <div className='naam'>JavaScript</div>
             <div className="pro-card-cont">
                 <div className="pro-card"></div>
@@ -23,8 +23,8 @@ const AllProjects = () => {
                 <div className="pro-card"></div>
             </div>
 
-        </section>
-        <section className='css'>
+        </section> */}
+        {/* <section className='css'>
             <div className='naam'>Tailwind</div>
             <div className="pro-card-cont">
                 <div className="pro-card"></div>
@@ -32,7 +32,7 @@ const AllProjects = () => {
                 <div className="pro-card"></div>
             </div>
 
-        </section>
+        </section> */}
     </div>
   )
 }

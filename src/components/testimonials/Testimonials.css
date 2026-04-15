@@ -1,6 +1,7 @@
 .testimonials{
     padding: 100px 50px;
     position: relative;
+    overflow: hidden;
 }
 .testimonials span{
     font-size: 2rem;
@@ -82,4 +83,12 @@
     color: grey;
     font-size: 20px;
 }
+}
+
+
+@media (max-width:380px) {
+     .test-card{
+      width: 310px;
+      height: 250px;
+     }
 }

@@ -2,7 +2,7 @@
     padding: 100px 50px;
     display: flex;
     position: relative;
-    
+     overflow: hidden;
 }
 .services-text{
     width: 50%;
